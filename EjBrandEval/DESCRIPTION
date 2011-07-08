@@ -1,0 +1,20 @@
+Package: EjBrandEval
+Version: 1.0.1
+Date: 2011-03-02
+Title: Ej Brand Evaluation
+Author: Jeff Laake <jeff.laake@noaa.gov>
+Description: This package provides code that uses RMark to
+    analyze resight data of branded Steller sea lions for
+    an evaluation of branding.
+Depends:
+    RMark
+Imports:
+    RODBC
+LazyLoad: yes
+License: GPL version 2 or later
+Maintainer: Jeff Laake <Jeff.Laake@noaa.gov>
+Collate:
+    'extract.Ej.r'
+    'process.Ej.cjs.r'
+    'run.cjs.models.r'
+    'zzz.r'
