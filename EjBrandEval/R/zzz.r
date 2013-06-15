@@ -1,4 +1,4 @@
-.First.lib<-function(library,pkgname)
+.onAttach<-function(library,pkgname)
 {
 	#Return a list, each element of which is a vector
 	# the first element of the vector is the stuff before the colon in info[[1]]
